@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Andrea Vilić-čestitke</title>
+		<link rel="stylesheet" href="stil.css"/>
+
+		<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Arima">
+
+	</head>
+	<body>
+	 
+	<h1 class="p1">Sretan Božić i sretna Nova godina!</h1>
+	<br>
+		<a href="https://www.christmas-decorations.com/" target="_blank">Božićne dekoracije!</a><br>
+		<h2>Unesite vašu Božićnu želju:</h2>
+		<form action="/submit" method="POST">
+			<label for="ime">Vaše ime:</label>
+			<input type="text" id="ime" name="ime" required><br><br>
+
+			<label for="zelja">Božićna želja:</label>
+			<textarea id="zelja" name="zelja" rows="4" cols="50" required></textarea><br><br>
+
+			<input type="submit" value="Pošaljite želju">
+		</form>
+	<br>
+		<div>
+		   
+		   <img width="557" height="401" src="slike/b2.jpg"/>
+		   <img width="601" height="401" src="slike/b3.jpg"/>
+		   <img width="300" height="400" src="slike/b1.jpg"/>
+		<iframe src="https://hr.wikipedia.org/wiki/Bo%C5%BEi%C4%87" width="600" height="300" frameborder="2"></iframe>
+		</div>
+		
+	<picture>
+		   <source srcset="slike/b4.jpg" media="(max-width: 600px)">
+		   <source srcset="slike/b5.jpg" media="(min-width: 601px)">
+		  <img width="600" height="300" src="slike/b6.jpg" alt="snijeg">
+	</picture>
+	<br>
+	<audio controls>
+	<source src="bozic.mp3">
+	</audio>
+	<br>
+	<video controls muted>
+	<source src="bor.mp4" type="video/mp4">
+	</video>
+	<br>
+	<embed type="video/webm" src="snijeg.mp4" width="400" height="250">
+	<br>
+
+<img src="slike/b10.jpg" alt="Božićna scena" usemap="#christmasmap" width="300" height="500">
+
+    
+    <map name="christmasmap">
+        
+        <area shape="rect" coords="50,50,200,400" alt="Božićna jelka" href="https://en.wikipedia.org/wiki/Christmas_tree">
+      
+        <area shape="rect" coords="100,100,300,550" alt="Pokloni" href="https://en.wikipedia.org/wiki/Gift">
+      
+       
+    </map>
+	<br>
+	<button type="button" onclick="alert('It\'s Beginning to Look a Lot Like Christmas')">Klikni me:)</button>
+	</body>
+	</html>
